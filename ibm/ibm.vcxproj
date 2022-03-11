@@ -140,10 +140,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EulerianFluid.cpp" />
+    <ClCompile Include="FluidSimulator.cpp" />
+    <ClCompile Include="ImmersedBoundary.cpp" />
+    <ClCompile Include="Kernel1D.cpp" />
+    <ClCompile Include="Kernel2D.cpp" />
     <ClCompile Include="LinearSolver.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EulerianFluid.h" />
+    <ClInclude Include="FluidSimulator.h" />
+    <ClInclude Include="ImmersedBoundary.h" />
+    <ClInclude Include="Kernel1D.h" />
+    <ClInclude Include="Kernel2D.h" />
     <ClInclude Include="LinearSolver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
